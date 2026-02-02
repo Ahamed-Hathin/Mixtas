@@ -1,88 +1,78 @@
-import React, { createContext, useContext, useState } from 'react'
-import {Products} from '../assets/assets.js'
+import React, { createContext, useState } from "react";
+import { Products } from "../assets/assets.js";
 
-export const MyContext=createContext()
+export const MyContext = createContext();
 
-const ContextProvider = ({children}) => {
+const ContextProvider = ({ children }) => {
+  const [cartItems, setCartItems] = useState([]);
+  const [searchText, setSearchText] = useState("");
+  const [searchResult, setSearchResult] = useState([]);
+  const [hoverIndex, setHoverIndex] = useState("");
 
-  const [cartItems,setCartItems]=useState([])
+  const product = Products.filter(
+    (item) => item.category !== "recomended"
+  );
 
-  const[searchText, setSearchText]= useState("")
+  const toggleCart = (product) => {
+    const exists = cartItems.find(
+      (item) => item.id === product.id
+    );
 
-  var [ hoverIndex , setHoverIndex ] = useState("")
+    if (exists) {
+      setCartItems(cartItems.filter((item) => item.id !== product.id));
+    } else {
+      setCartItems([...cartItems, product]);
+    }
+  };
 
+  // ✅ ABSOLUTELY SAFE TOTAL (NO replace() ON NUMBER)
+  const totalItem = cartItems.reduce((sum, item) => {
+    if (item.price == null) return sum;
 
-  const[searchResult,setSearchResult] =useState([])
+    let price = 0;
 
-  const product = Products.filter(item=> item.category != "recomended")
+    if (typeof item.price === "number") {
+      price = item.price;
+    } else if (typeof item.price === "string") {
+      price = Number(item.price.replace(/[^0-9.]/g, ""));
+    }
 
-const toggleCart=(product)=>{
-  const exits = cartItems.find(item=> item.id === product.id)
+    return sum + price;
+  }, 0);
 
-  if(exits){
-    setCartItems(cartItems.filter(item=> item.id != product.id))
-  }
-  else{
-    setCartItems([...cartItems, product])
-  }
+  const handleSearch = (text) => {
+    setSearchText(text);
 
+    if (!text) {
+      setSearchResult([]);
+      return;
+    }
 
+    const filtered = product.filter(
+      (item) =>
+        item.name?.toLowerCase().includes(text.toLowerCase()) ||
+        item.dec?.toLowerCase().includes(text.toLowerCase())
+    );
 
-}
-
- const totalItem = cartItems.reduce((sum, item) => {
-    return sum + parseInt(item.price.replace("₹", ""))
-  }, 0)
-
-
-const handleSearch=(text)=>{
- setSearchText(text)
-
- if(text.length === 0){
-  setSearchResult([])
-  return
- }
-
-
-
-const filtered = product.filter((item)=>
-item.name ?.toLowerCase().includes(text.toLowerCase()) ||
-item.dec ?.toLowerCase().includes(text.toLowerCase) 
-)
-
-setSearchResult(filtered)
-
-  
-
-}
-
-
-
-
-
-
-var contextValue ={
-  cartItems,
-  toggleCart,
-  totalItem,
-  searchText,
-  handleSearch,
- searchResult , 
- hoverIndex , setHoverIndex
-
-
-  
-
-}
-
-
-
+    setSearchResult(filtered);
+  };
 
   return (
-    <MyContext.Provider value={contextValue}>
-     {children}
+    <MyContext.Provider
+      value={{
+        cartItems,
+        toggleCart,
+        totalItem,
+        searchText,
+        handleSearch,
+        searchResult,
+        hoverIndex,
+        setHoverIndex,
+      }}
+    >
+      {children}
     </MyContext.Provider>
-  )
+  );
+};
 
-}
-export default ContextProvider
+export default ContextProvider;

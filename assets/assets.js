@@ -122,7 +122,7 @@ export const Products = [
     hoverImg : slide6, 
     dec:"Dime Classic Remastered Hoodie, black",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
-    price:"$140",
+    price:140,
     category:"newArrival"    
   },
   
@@ -132,7 +132,7 @@ export const Products = [
     img:Arrival2,
     dec:"Dime Sunny Tee, forest green ",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
-    price:"$55",
+    price:55,
     category:"newArrival"    
   },
 
@@ -142,7 +142,7 @@ export const Products = [
     img:Arrival3,
     dec:"Dime Classic Small Logo Sweatpants",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
-    price:"$135",
+    price:135,
     category:"newArrival"    
   },
 
@@ -152,7 +152,7 @@ export const Products = [
     img:Arrival4,
     dec:"Carhartt American Script Sweat, tobacco",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
-    price:"$100",
+    price:100,
     category:"newArrival"    
   },
 
@@ -162,7 +162,7 @@ export const Products = [
     img:Arrival5,
     dec:"Carhartt Essentials Bags(small), highland",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
-    price:"$55",
+    price:55,
     category:"newArrival"   
   },
 
@@ -172,7 +172,7 @@ export const Products = [
     img:Arrival6,
     dec:"Parra Trees in Wind Toiletry Bag, green",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
-    price:"$85",
+    price:85,
     category:"newArrival"    
   },
 
@@ -182,7 +182,7 @@ export const Products = [
     img:Arrival7,
     dec:"Palar Hijack Tee, plum",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
-    price:"$55",
+    price:55,
     category:"newArrival"    
   },
 
@@ -192,7 +192,7 @@ export const Products = [
     img:Arrival8,
     dec:"Polar Welcome To The New Age LS Tee",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
-    price:"$65",
+    price:65,
     category:"newArrival"    
   },
 
@@ -207,7 +207,7 @@ export const Products = [
     img:popula1,
     name:"JACKETS",
     dec:"Carhartt windbreaker pullover(winter)",
-    price: "₹349",
+    price:349,
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
     category:"Popular"
   },
@@ -217,7 +217,7 @@ export const Products = [
     img:popula2,
     name:"JACKETS",
     dec:"Carhart detroit jacket(summer)",
-    price: "₹449",
+    price:449,
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
     category:"Popular"
   },
@@ -227,7 +227,7 @@ export const Products = [
     img:popula3,
     name:"JACKETS",
     dec:"Carhartt hooded coach jacket",
-    price: "₹349",
+    price:349,
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
     category:"Popular"
   },
@@ -237,7 +237,7 @@ export const Products = [
     img:popula4,
     name:"JACKETS",
     dec:"Carhartt hooded coach jacket",
-    price: "₹349",
+    price:349,
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
     category:"Popular"
   },
@@ -253,7 +253,7 @@ export const Products = [
     img:shop1,
     name:"JACKETS",
     dec:"adidas X Pop Beckenbauer Track Jacket",
-    price:"$120.00",    
+    price:120.00,   
     category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -264,7 +264,7 @@ export const Products = [
     img:shop2,
     name:"TEES",
     dec:"adidas X Pop Classic t-shirt, grey / navy",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -275,7 +275,7 @@ export const Products = [
     img:shop3,
     name:"TEES",
     dec:"adidas X Pop Polo cap, navy / white",
-    price:"$69.99",    
+    price:69.99,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -286,7 +286,7 @@ export const Products = [
     img:shop4,
     name:"CAPS",
     dec:"adidas X Pop Polo cap, navy / white",
-    price:"$69.99",    
+    price:69.99,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -297,7 +297,7 @@ export const Products = [
     img:shop5,
     name:"SHOES",
     dec:"adidas X Pop TRX Vintage, navy / white",
-    price:"$69.99",    
+    price:69.99,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -308,7 +308,7 @@ export const Products = [
     img:shop6,
     name:"TEES",
     dec:"Bear graphic T-shirt",
-    price:"$30.99",    
+    price:30.99,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -319,7 +319,7 @@ export const Products = [
     img:shop7,
     name:"HOODIES",
     dec:"Butter Yard Pullover Hood, denim",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -330,7 +330,7 @@ export const Products = [
     img:shop8,
     name:"SWEATSHIRTS",
     dec:"Button knit cardigon",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -341,7 +341,7 @@ export const Products = [
     img:shop9,
     name:"TEES",
     dec:"Carhartt L/S DeadKebab Knock Knock",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -352,7 +352,7 @@ export const Products = [
     img:shop10,
     name:"SHIRTS",
     dec:"Dirty-effect denim overshirt",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -363,7 +363,7 @@ export const Products = [
     img:shop11,
     name:"SHIRTS",
     dec:"Drop-shoulder denim jacket",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -374,7 +374,7 @@ export const Products = [
     img:shop12,
     name:"HOODIES",
     dec:"Faux shearling puffer jacket",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -385,7 +385,7 @@ export const Products = [
     img:shop13,
     name:"JACKETS",
     dec:"Halter waistcoat with a tie at the back",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -396,7 +396,7 @@ export const Products = [
     img:shop14,
     name:"SHIRTS",
     dec:"Lapels Houndstooth suit blazer",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -407,7 +407,7 @@ export const Products = [
     img:shop15,
     name:"BAGS",
     dec:"Nylon shopper bag with pockets",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -418,7 +418,7 @@ export const Products = [
     img:shop16,
     name:"SHIRTS",
     dec:"Oversized denim jacket with faux shearling",
-    price:"$120.00",    
+    price:120.00, 
     category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -429,7 +429,7 @@ export const Products = [
     img:shop17,
     name:"TEES",
     dec:"Parra Rug Pull t-shirt, white",
-    price:"$120.00",    
+    price:120.00,   
     category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -440,7 +440,7 @@ export const Products = [
     img:shop18,
     name:"SKIRTS",
     dec:"Plaid box pleat mini skirt",
-    price:"$120.00",    
+    price:120.00,   
     category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -451,7 +451,7 @@ export const Products = [
     img:shop19,
     name:"SHIRTS",
     dec:"Pocketed denim jacket",
-    price:"$120.00",    
+    price:120.00,   
     category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
@@ -462,7 +462,7 @@ export const Products = [
     img:shop20,
     name:"SHIRTS",
     dec:"Striped poplin shirt with pocket detail",
-    price:"$120.00",    
+    price:120.00,   
    category:"shop",
     para:"A product short description is a concise and brief overview of a product, providing key information to potential customers. Typically, it is a brief summary that highlights the most important features, benefits, and characteristics of the product. The goal is to quickly communicate relevant details to the consumer and entice them to learn more or make a purchase.",
 
