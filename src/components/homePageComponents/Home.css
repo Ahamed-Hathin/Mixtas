@@ -1,0 +1,167 @@
+.position-relative img {
+    height: 80vh;
+    object-fit: cover;
+}
+
+.caurosel img {
+    height: 780px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.caurosel h1 {
+    font-size: 86px;
+    font-weight: 700;
+}
+
+.caurosel button {
+    padding: 16px 42px;
+}
+
+/* Response Carousel Adjustments */
+@media (max-width: 991px) {
+    .caurosel img {
+        height: 500px;
+    }
+
+    .caurosel h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .caurosel img {
+        height: 400px;
+    }
+
+    .caurosel h1 {
+        font-size: 36px;
+    }
+
+    .caurosel .slide-content {
+        margin-left: 20px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .caurosel img {
+        height: 300px;
+    }
+
+    .caurosel h1 {
+        font-size: 28px;
+    }
+
+    .caurosel h3 {
+        font-size: 14px;
+    }
+}
+
+
+
+.Recommended-Container h1 {
+    font-size: 45px;
+}
+
+.Recommended-items p {
+    font-size: 20px;
+
+}
+
+
+/* New Arrivals Section */
+.new-arrivals h1 {
+    font-size: 50px;
+    /* margin-bottom: 8px; */
+    font-weight: normal;
+}
+
+.arrival-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.arrival-card:hover .card-img-overlay>div:nth-child(1) .arrival-icon {
+    opacity: 1;
+    transition-delay: 0.3s;
+}
+
+.arrival-card:hover .card-img-overlay>div:nth-child(2) .arrival-icon {
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+.arrival-card:hover .card-img-overlay>div:nth-child(3) .arrival-icon {
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+
+
+/* Popular products */
+
+
+.popular-container h1 {
+    font-size: 45px;
+    font-weight: normal;
+}
+
+
+
+.popular-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.popular-items:hover .card-img-overlay>div:nth-child(1) .popular-icon {
+    opacity: 1;
+    transition-delay: 0.3s;
+}
+
+.popular-items:hover .card-img-overlay>div:nth-child(2) .popular-icon {
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+.popular-items:hover .card-img-overlay>div:nth-child(3) .popular-icon {
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+
+
+
+
+
+.popular-items p:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.popular-items p:nth-of-type(2) {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.popular-items p:nth-of-type(3) {
+    font-size: 16px;
+    font-weight: normal;
+}
